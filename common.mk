@@ -23,6 +23,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# ART lowmem config
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.art_lowmem=true
+
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService-Soong \
