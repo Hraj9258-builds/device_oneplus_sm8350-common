@@ -17,6 +17,9 @@
     <!-- Charging info current divider, if needed -->
     <integer name="config_currentInfoDivider" translatable="false">1</integer>
     
+    <!-- Whether show refresh rate QS tile -->
+    <bool name="config_showRefreshRateQsTile">true</bool>
+    
     <!-- The CPU temperature sensor path, defaults to empty -->
     <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone94/temp</string>
 
